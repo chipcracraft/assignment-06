@@ -1,0 +1,98 @@
+*{ box-sizing: border-box }
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+#app-container {
+  width: 968px;
+  margin: 0 auto;
+}
+
+.column-container {
+  font-size: 0;
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  right: 22px;
+  border: 1px solid black;
+}
+
+.column-container > .grid-item {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top;
+  }
+
+  .grid-item {
+    width: 50%;
+    background-color: #D0D5D9;
+}
+
+  .text-column {
+    width: 50%;
+    padding-bottom: 37px;
+    text-align: center;
+
+    button {
+    background-color: black;
+    color: white;
+    padding: 4px 50px;
+  }
+}
+
+  .image-column {
+    width: 50%;
+  }
+
+  .speaker {
+    width: 100%;
+    margin-right: 0;
+  }
+
+
+
+
+
+  .button {
+    position: absolute;
+    top: -6px;
+    left: -11px;
+    border-radius: 50%;
+  }
+
+
+  .title {
+    letter-spacing: 50px;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .shop {
+    position: relative;
+    bottom: 51px;
+    left: 486px;
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: large;
+  }
+
+  .bag {
+    width: 4%;
+    right: 13px;
+    bottom: -531px;
+    position: absolute;
+    color: black;
+}
